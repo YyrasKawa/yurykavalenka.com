@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html,
+body {
+    font-family: var(--font-main);
+    color: var(--bgColorPrimary);
+}
+
+body {
+    height: 5000px;
+    padding-top: 60px;
+}
+
+.container {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.none {
+    display: none !important;
+}
+
+

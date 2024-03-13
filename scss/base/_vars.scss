@@ -1,0 +1,32 @@
+:root {
+    --textColor: #fff;
+    --accent: #22BFB7;
+    --light: #EAEBF0;
+    --secondTextColor: #282A36;
+    --bgColorPrimary: #282836;
+    --bgColorAccent: #323443;
+    --dark: #000;
+    --bgColorGradOne: #292b3850;
+    --bgColorGradTwo: #22c3bb19;
+
+
+    --font-main: "Raleway", sans-serif;
+}
+
+
+
+
+    @mixin mediaTablet {
+    @media screen and (max-width: 959px) {
+        @content;
+        
+    }
+}
+
+
+@mixin mediaMobile {
+    @media screen and (max-width: 749px) {
+        @content;
+        
+    }
+}

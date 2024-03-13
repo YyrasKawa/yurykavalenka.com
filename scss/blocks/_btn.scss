@@ -1,0 +1,15 @@
+.btn {
+    color: var(--accent);
+    padding: 8px 20px;
+    border: 1px solid var(--accent);
+
+}
+
+.btn__hero {
+    padding: 15px 20px;
+    color: var(--textColor);
+    border: none;
+    background-color: var(--accent);
+    z-index: 3;
+    text-transform: uppercase;
+}
