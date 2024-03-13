@@ -29,3 +29,16 @@
 .card__desk {
   line-height: 28px;
 }
+
+.box-features {
+    opacity: 0;
+    transition: all 0.9s ease;
+    transform: translateY(50%);
+}
+
+
+
+.box-features.show {
+    opacity: 1;
+    transform: translateY(0);
+}

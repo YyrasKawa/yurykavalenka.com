@@ -1,5 +1,63 @@
+.faq {
+    background-color: var(--bgColorAccent);
+    padding: 75px 0;
+}
 
+.faq__list-group {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.list-header {
+    color: var(--textColor);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+        color: var(--accent);
+    }
+
+    @include mediaMobile {
+        font-size: 16px;
+    }
+    
+}
+.list-content {
+    margin-bottom: 30px;
+    color: var(--textColor);
+    background-color: var(--bgColorPrimary);
+    padding: 20px;
+}
+
+.accordeon-text {
+    line-height: 28px;
+    @include mediaMobile {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.accordeon-link {
+    color: var(--accent);
+    transition: all 0.4s;
+    &:hover {
+        opacity: 0.7;
+        text-decoration: underline;
+    }
+}
 
 .accordeon-body {
     display: none;
+}
+
+.fag__button-wrap {
+    margin: 100px 0 50px 0;
+    text-align: center;
 }

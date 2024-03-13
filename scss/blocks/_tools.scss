@@ -3,6 +3,7 @@
     padding: 75px 0;
     background-color: var(--bgColorPrimary);
     color: var(--textColor);
+    overflow-x: hidden;
     
     &::before {
         content: "";
@@ -56,4 +57,17 @@
 }
 .tools-desc {
     line-height: 28px;
+}
+
+.box__tools {
+    transform: translateX(-400%);
+    transition: transform 0.9s ease;
+}
+
+.box__tools:nth-of-type(even) {
+    transform: translateX(400%);
+}
+
+.box__tools.show {
+    transform: translateX(0);
 }

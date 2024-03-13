@@ -46,14 +46,13 @@
         padding-right: 0;
     }
 }
-.title-h2 {
-    color: var(--accent);
-    font-size: 36px;
-    font-weight: 700;
-}
+
 .text-important {
     font-size: 22px;
     line-height: 28px;
+    @include mediaMobile {
+        font-size: 20px;
+    }
 }
 .text-content {
     font-size: 16px;
