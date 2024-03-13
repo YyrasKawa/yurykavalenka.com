@@ -1,0 +1,122 @@
+.contact {
+  color: var(--textColor);
+  background-color: var(--bgColorPrimary);
+}
+
+.questions {
+  padding: 100px 0;
+}
+.questions__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.questions__title {
+  text-align: center;
+}
+
+.questions__form {
+  padding: 50px 0;
+  max-width: 600px;
+}
+.questions__row {
+  margin-bottom: 30px;
+}
+.qustions__form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.questions__form-input,
+.questions__form-area {
+  border: 1px solid var(--textColor);
+  padding: 13px 16px;
+
+  &:focus {
+    border: 1px solid var(--accent);
+  }
+}
+
+.questions__form-area {
+  outline: none;
+  resize: none;
+  height: 128px;
+
+  &:focus {
+    border: 1px solid var(--accent);
+  }
+}
+
+.form__agree {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0;
+  gap: 20px;
+}
+
+.btn__w100 {
+  width: 100%;
+}
+
+
+// .questions__form-checkbox {
+//   display: block;
+//   position: relative;
+//   margin-top: 5px;
+//   cursor: pointer;
+//   font-size: 22px;
+//   -webkit-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+// }
+
+// .questions__form-default {
+//   position: absolute;
+//   opacity: 0;
+//   cursor: pointer;
+//   height: 0;
+//   width: 0;
+// }
+
+
+
+// .checkmark {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   height: 16px;
+//   width: 16px;
+//   background-color: #eee;
+// }
+
+// .questions__form-checkbox:hover .questions__form-default ~ .checkmark {
+//   background: var(--accent);
+// }
+
+// .questions__form-checkbox .questions__form-default:checked ~ .checkmark {
+//   background-color: var(--accent);
+// }
+
+// .checkmark::after {
+//   content: "";
+//   position: absolute;
+//   display: none;
+// }
+
+// .questions__form-checkbox .questions__form-default:checked ~ .checkmark::after {
+//   display: block;
+// }
+
+// .questions__form-checkbox .checkmark:after {
+//   left: 9px;
+//   top: 5px;
+//   width: 5px;
+//   height: 10px;
+//   border: solid white;
+//   border-width: 0 3px 3px 0;
+//   -webkit-transform: rotate(45deg);
+//   -ms-transform: rotate(45deg);
+//   transform: rotate(45deg);
+// }
+
