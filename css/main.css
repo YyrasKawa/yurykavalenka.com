@@ -569,3 +569,7 @@ body {
 .tools-desc {
   line-height: 28px;
 }
+
+.accordeon-body {
+  display: none;
+}
